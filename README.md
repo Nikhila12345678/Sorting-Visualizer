@@ -20,7 +20,7 @@ A simple web page that visually demonstrates how different sorting algorithms wo
 - HTML
 - CSS
 - JavaScript
-
+- Data Structures and Algorithms
 ## Contributing
 
 Feel free to open issues or submit pull requests if you want to add new features or fix bugs.
