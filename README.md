@@ -1,6 +1,6 @@
 # Sorting Visualizer
 
-A simple web app that visually demonstrates how different sorting algorithms work by animating the sorting process.
+A simple web page that visually demonstrates how different sorting algorithms work by animating the sorting process.
 
 ## Features
 
