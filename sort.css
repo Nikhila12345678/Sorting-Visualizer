@@ -1,0 +1,111 @@
+body{
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 20px;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+h1{
+    margin:50px;
+    color:palevioletred;
+    text-decoration: wavy;
+}
+#btn{
+    margin:50px;
+    font-size:20px;
+    background-color: #4a90e2;
+}
+#bars{
+    height:400px;
+    display:flex;
+    border-radius:10px;
+    padding: 10px;
+    border: 2px solid #333;
+    box-shadow: 10 10 10 10 green;
+}
+#bubblesort{
+    margin:20px;
+    font-size:20px;
+    background-color: #4a90e2;
+}
+#selectionsort {
+    margin: 20px;
+    font-size:20px;
+    background-color: #4a90e2;
+}
+#sizeslider{
+    margin:20px;
+}
+#sizevalue{
+   margin-right:20px;
+   /* margin-left:10px; */}
+#legend{
+    display:flex;
+    justify-content:center;
+    gap:90px;
+    margin-top:20px;
+    font-style:italic;
+}
+.legends{
+    display:inline-block;
+    height:20px;
+    width:94px;
+    border:2px solid black;
+    margin-right:5px;
+    vertical-align:middle;
+    text-align:center;
+}
+#speed{
+    margin:20px;
+}
+
+.roboto-condensed {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    font-size:80px;
+  }
+  button{
+    border-style:dotted;
+    border-radius:7px;
+    color:#2c3e50
+  }
+  button:hover {
+    background-color: #357ab8;
+    border: none;
+}
+input[type=range] {
+    width: 150px;
+}
+#bars{
+    background-color:#ffffff;
+}
+#darkmode{
+    position:absolute;
+    top:20px;
+    right:30px;
+    font-size:25px;
+    font-weight: bolder;
+    background: #e0e0e0;
+    padding: 8px 12px;
+  border-radius: 20px;
+}
+.dark-mode{
+    background-color:black;
+    color:white;
+}
+
+.dark-mode #bars {
+    border-color: #888;
+  }
+  .dark-mode button {
+    background-color: #333;
+    color: #f0f0f0;
+    border: 1px solid #888;
+  }

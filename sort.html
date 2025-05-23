@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sorting</title>
+    <link rel="stylesheet" href="sort.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="poppins-regular">
+    <h1 class="roboto-condensed">Sorting Visualizer</h1>
+    <p id="status"></p>
+    <button id="btn">Generate New Array</button>
+    <label for="sizeslider">Array Size:</label>
+    <input type="range" id="sizeslider" min="10" max="100" value="50">
+    <span id="sizevalue">50</span> 
+    <label for="speed">Speed:</label>
+    <input type="range" id="speed" min="1" max="100" value="50">
+    <span id="speedval">50</span>
+    <button id="bubblesort">Bubble Sort</button>
+    <button id="selectionsort">Selection Sort</button>
+    <div id="bars"></div>
+    <div id="legend">
+        <p><span class="legends" style="background-color:blue;">Minimum</span></p>
+        <p><span class="legends" style="background-color:red;">Comparing</span></p>
+        <p><span class="legends" style="background-color:green;">Sorted</span></p>
+        <p><span class="legends" style="background-color:#FFC300;">Unsorted</span></p>
+    </div>
+    <label id="darkmode">
+    <input type="checkbox" id="change">Dark Mode
+</label>
+    <script src="sort.js"></script>
+</body>
+</html>
